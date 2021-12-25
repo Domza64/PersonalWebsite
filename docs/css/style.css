@@ -1,0 +1,65 @@
+body {
+  background-color: #000000;
+  color: #24b729;
+  font-family: IBM-PlexMono;
+}
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+a:hover {
+  color: #16841a;
+}
+b {
+  font-weight: 600;
+}
+
+/* ---------------------- */
+.MainPage {
+  text-align: center;
+  height: 100vh;
+}
+.Links {
+  margin-top: 45vh;
+  -webkit-animation: glow 4s ease-in-out infinite alternate;
+  -moz-animation: glow 4s ease-in-out infinite alternate;
+  animation: glow 4s ease-in-out infinite alternate;
+  font-size: 25px;
+  font-weight: 200;
+}
+
+/* ---------------------- */
+.SecondPage {
+  text-align: center;
+  vertical-align: center;
+  display: flex;
+  justify-content: center;
+}
+.LeftContainer {
+  width: 50%;
+}
+.RightContainer {
+  width: 50%;
+  margin-top: 40vh;
+}
+.ContainerPart {
+  height: 70vh;
+
+}
+
+/* ---------------------- */
+footer {
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* ---------------------- */
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #37e53c;
+  }
+  to {
+    text-shadow: 0 0 15px #37e53c, 0 0 15px #37e53c;
+  }
+}
