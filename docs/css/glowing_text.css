@@ -1,0 +1,16 @@
+/* Glow text effect */
+p, h1, h2 {
+    -webkit-animation: glow 4s ease-in-out infinite alternate;
+    -moz-animation: glow 4s ease-in-out infinite alternate;
+    animation: glow 4s ease-in-out infinite alternate;
+}
+
+/* Glowing text animation */
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #37e53c;
+    }
+    to {
+      text-shadow: 0 0 15px #37e53c, 0 0 15px #37e53c;
+    }
+}

@@ -1,176 +1,57 @@
-/* Code at this point is a fu****g mess don't evel look at it... I will clean it up in future */
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  background-color: #000000;
+  background-color: black;
   color: #24b729;
   margin: 0;
   font-family: IBM-PlexMono;
 }
-/* Links */
-a {
-    color: inherit;
-    text-decoration: inherit;
+
+img {
+  image-rendering: pixelated;
 }
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
 a:hover {
   color: #16841a;
-
 }
+
 b {
-  font-weight: 600;
+  font-weight: 700;
 }
 
-p {
+p, h1, h2 {
   margin: 0;
 }
 
-/* Lists */
+p {
+  font-weight: 200;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-.mainLinks li {
-  margin-left: 10px;
-  margin-right: 10px;
-}
 
-
-/* Glow text effect */
-.glowingText {
-  -webkit-animation: glow 4s ease-in-out infinite alternate;
-  -moz-animation: glow 4s ease-in-out infinite alternate;
-  animation: glow 4s ease-in-out infinite alternate;
-}
-
-/* ---------------------- */
-.mainPage {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  height: 100vh;
-  font-weight: 200;
-}
-.mainLinks {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0;
-  margin-top: 0.6em;
-  font-size: 3.6vw;
-}
-.desktopTitle {
-  display: none;
-  font-weight: 200;
-  font-size: 2.5em;
-}
-.mobileTitle {
-  margin: 0;
-  font-size: 7vw;
-}
-
-/* ---------------------- */
-.section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.brake-line {
+  padding-top: 60px;
   overflow: hidden;
-}
-.container {
-  display: flex;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-}
-.empty {
-  display: none;
-}
-.text {
-  margin: 8em 3em;
-}
-.coolLine {
-  text-align: center;
   white-space: nowrap;
-  margin-top: 5vw;
-}
-.coolLine p {
-  font-weight: 100;
-  font-stretch: 150%;
-}
-
-
-/* ---------------------- */
-footer {
-  font-weight: 300;
+  display: block;
   text-align: center;
-  margin-bottom: 35px;
-  margin-top: 150px;
-  font-size: 2.4vw;
 }
-
-/* Glowing text animation */
-@-webkit-keyframes glow {
-  from {
-    text-shadow: 0 0 10px #37e53c;
-  }
-  to {
-    text-shadow: 0 0 15px #37e53c, 0 0 15px #37e53c;
-  }
+.brake-line h1 {
+  font-weight: 100;
+  font-size:1.5em;
+  letter-spacing: 16px;
 }
-
-
-@media only screen and (min-width: 700px) {
-  footer {
-    font-size: unset;
-  }
-}
-
-@media only screen and (min-width: 900px) {
-  .desktopTitle {
-    display: block;
-  }
-  .mobileTitle {
-    display: none;
-  }
-  .mainPage {
-    height: 100vh;
-  }
-  .mainLinks {
-    justify-content: unset;
-    margin-left: 1.6em;
-    font-size: 1.55em;
-  }
-  li {
-    margin-left: 16px;
-    margin-right: 16px;
-  }
-  .section-container {
-    width: 80%;
-  }
-  .section-container-test {
-    width: 90%;
-  }
-  .aboutSection {
-    height: 100vh;
-  }
-  .coolLine {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
-@media only screen and (min-width: 1500px) {
-  .empty {
-    display: block;
-    width: 50%;
-    margin: 80px;
-  }
-  .text {
-    width: 50%;
-    margin: 80px;
-  }
+.brake-line p {
+  font-weight: 200;
 }
