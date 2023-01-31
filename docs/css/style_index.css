@@ -5,8 +5,13 @@ nav {
   margin-top: 16px;
 }
 
-.under-construction-gif > img {
+.gifs > img {
   height: 6.5vh;
+  margin: 4px;
+}
+.gifs {
+  width: 90%;
+  text-align: center;
 }
 
 .hero-container {
@@ -44,4 +49,14 @@ nav {
 
 li {
   margin: 0 8px;
+}
+
+.projects-section {
+  margin: 50px 0px;
+  max-width: 90%;
+}
+.projects-section-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
