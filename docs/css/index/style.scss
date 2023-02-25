@@ -32,6 +32,14 @@ html {
             line-height: 1.4em;
         }
         main {
+            section {
+                width: 90%;
+                padding: 5%;
+                flex-direction: column;
+            }
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             .__hero {
                 text-align: center;
                 height: 100vh;
@@ -70,6 +78,7 @@ html {
                 }
             }
             .__about_me {
+                overflow: hidden;
                 text-align: center;
                 font-weight: 200;
                 u {
@@ -88,6 +97,7 @@ html {
                 }
             }
             .__projects {
+                overflow: hidden;
                 article {
                     margin-bottom: 100px;
                     .__projects_article_description {
@@ -119,6 +129,7 @@ html {
                 }
             }
             .__mtb {
+                overflow: hidden;
                 img {
                     margin-top: 50px;
                     width:100%; 
@@ -142,21 +153,24 @@ html {
             text-align: center;
             flex-direction: column;
             gap: 2em;
-            margin-top: 100px;
+            margin-top: -280px;
             font-size: 0.9em;
             span {
                 font-weight: 300;
             }
-            .__footer_image_container {
-                height: 180px;
-                width: 95%;
+            .__footer_image {
+                transform: translateY(300px);
+                width: 100%;
+                max-width: 500px;
+                opacity: 0.4;
+                clip-path: inset(0px 0px 80px 0px)
             }
             .__footer_something {
                 font-size: 1.6em;
                 font-weight: 900;
             }
             .__footer_text {
-                margin-bottom: 10px;
+                margin-bottom: 50px;
             }
         }
     }
@@ -187,15 +201,9 @@ html {
 }
 .--section-content {
     max-width: 1200px;
-    padding: 1.5em 1em;
 }
 .--mtb-image-one {
     opacity: 0.35;
     transform: translateY(-20px);
     width: 100%;
-}
-.--mtb-image-two {
-    opacity: 0.4;
-    width: 100%;
-    clip-path: inset(0px 0px 80px 0px)
 }

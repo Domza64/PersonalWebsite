@@ -13,4 +13,18 @@
 }
 
 @media only screen and (min-width: 900px) { 
+    .--brake-line {
+        flex-direction: row;
+    }
+    .--mtb-image-one {
+        opacity: 0.2;
+        transform: translateY(-20px);
+        width: 70%;
+    }
+    .__projects {
+        text-align: center;
+        .__projects_article_title {
+            justify-content: center;
+        }
+    }
 }
