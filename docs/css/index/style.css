@@ -1,0 +1,200 @@
+:root {
+  --background-color: black;
+  --green: #24b729;
+  --dark-green: #188d1c;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+html body {
+  margin: 0px;
+  background-color: var(--background-color);
+  font-family: IBM-PlexMono;
+  color: var(--green);
+}
+html body a {
+  color: var(--green);
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 200;
+}
+html body a:hover {
+  color: var(--dark-green);
+  text-decoration: underline;
+  text-shadow: none;
+}
+html body a b {
+  font-weight: 900;
+}
+html body u {
+  text-decoration: none;
+}
+html body p, html body span {
+  font-weight: 200;
+  line-height: 1.4em;
+}
+html body main .__hero {
+  text-align: center;
+  height: 100vh;
+}
+html body main .__hero .__hero_gifs {
+  flex-wrap: wrap;
+  gap: 0.8em;
+}
+html body main .__hero .__hero_gifs img {
+  width: 160px;
+  height: 58px;
+}
+html body main .__hero .__hero_content {
+  flex-direction: column;
+  height: 60%;
+}
+html body main .__hero .__hero_content h1 {
+  font-size: 1.8em;
+  font-weight: 200;
+}
+html body main .__hero .__hero_content h1 u {
+  font-weight: 600;
+}
+html body main .__hero .__hero_content .__hero_content_title_desktop {
+  display: none;
+}
+html body main .__hero .__hero_content ul {
+  list-style-type: none;
+  flex-wrap: wrap;
+  padding: 0px;
+}
+html body main .__hero .__hero_content ul li {
+  margin: 4px 6px;
+}
+html body main .__hero .__hero_content ul li u {
+  font-weight: 600;
+}
+html body main .__about_me {
+  text-align: center;
+  font-weight: 200;
+}
+html body main .__about_me u {
+  font-weight: 300;
+}
+html body main .__about_me p {
+  margin-bottom: 32px;
+}
+html body main .__about_me .__about_me_diary {
+  font-variant-caps: petite-caps;
+  font-size: 1.4em;
+}
+html body main .__about_me .__about_me_diary a {
+  font-weight: 300;
+  text-decoration: underline;
+}
+html body main .__projects article {
+  margin-bottom: 100px;
+}
+html body main .__projects article .__projects_article_description a {
+  text-decoration: underline;
+  font-weight: 300;
+}
+html body main .__projects article .__projects_article_title {
+  display: flex;
+  align-items: center;
+}
+html body main .__projects article .__projects_article_title h3 {
+  font-weight: 900;
+  text-shadow: none;
+}
+html body main .__projects article .__projects_article_title span {
+  font-weight: 200;
+}
+html body main .__projects article span {
+  font-weight: 200;
+}
+html body main .__projects article span a {
+  font-weight: 300;
+}
+html body main .__projects article span a u {
+  font-weight: 900;
+}
+html body main .__mtb img {
+  margin-top: 50px;
+  width: 100%;
+  max-width: 800px;
+}
+html body main .__mtb .__mtb_text {
+  transform: translateX(-65px) translateY(-20px);
+  font-size: 1.6em;
+  text-align: center;
+  font-variant-caps: petite-caps;
+}
+html body main .__mtb .__mtb_text a {
+  text-decoration: underline;
+  font-weight: 300;
+  font-size: 1.6em;
+}
+html body footer {
+  overflow: hidden;
+  text-align: center;
+  flex-direction: column;
+  gap: 2em;
+  margin-top: 100px;
+  font-size: 0.9em;
+}
+html body footer span {
+  font-weight: 300;
+}
+html body footer .__footer_image_container {
+  height: 180px;
+  width: 95%;
+}
+html body footer .__footer_something {
+  font-size: 1.6em;
+  font-weight: 900;
+}
+html body footer .__footer_text {
+  margin-bottom: 10px;
+}
+
+.--flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.--brake-line {
+  overflow: hidden;
+  padding-top: 60px;
+  flex-direction: column;
+}
+.--brake-line span {
+  font-weight: 200;
+}
+.--brake-line span u {
+  font-weight: 400;
+}
+.--brake-line h2 {
+  letter-spacing: 16px;
+  margin: 0px;
+  font-weight: 100;
+}
+.--brake-line h2 u {
+  font-weight: 300;
+}
+
+.--section-content {
+  max-width: 1200px;
+  padding: 1.5em 1em;
+}
+
+.--mtb-image-one {
+  opacity: 0.35;
+  transform: translateY(-20px);
+  width: 100%;
+}
+
+.--mtb-image-two {
+  opacity: 0.4;
+  width: 100%;
+  -webkit-clip-path: inset(0px 0px 80px 0px);
+          clip-path: inset(0px 0px 80px 0px);
+}/*# sourceMappingURL=style.css.map */

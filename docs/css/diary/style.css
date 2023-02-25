@@ -1,0 +1,86 @@
+:root {
+  --background-color: black;
+  --green: #24b729;
+  --dark-green: #188d1c;
+}
+
+body {
+  text-align: center;
+  background-color: var(--background-color);
+  color: var(--green);
+  font-family: IBM-PlexMono;
+  margin: 0px;
+  font-weight: 200;
+}
+body a {
+  color: var(--green);
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: 200;
+}
+body a:hover {
+  color: var(--dark-green);
+  text-decoration: underline;
+  text-shadow: none;
+}
+body a b {
+  font-weight: 900;
+}
+body header {
+  padding: 20px 0px;
+}
+body main {
+  font-size: 1.1em;
+  line-height: 1.3em;
+  margin-bottom: 120px;
+}
+body main .__title {
+  padding: 0px 1em;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body main .__title h1 {
+  font-size: 3.2em;
+  font-weight: 300;
+  font-variant-caps: petite-caps;
+}
+body main .__title img {
+  opacity: 0.25;
+  position: absolute;
+  width: 100%;
+  max-width: 600px;
+}
+body main .__articles {
+  padding: 20px 0px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 100px;
+}
+body main .__articles article {
+  padding: 0px 1em;
+  max-width: 1000px;
+}
+body main .__articles article h2 {
+  font-weight: 300;
+  font-size: 1em;
+  margin: 8px;
+}
+body main .__articles article p {
+  margin: 0px;
+}
+body main .__articles article br {
+  margin-bottom: 12px;
+}
+body footer {
+  padding: 40px 20px;
+}
+
+.--picture-one {
+  width: 100vw;
+  opacity: 0.9;
+  max-width: 1200px;
+}/*# sourceMappingURL=style.css.map */

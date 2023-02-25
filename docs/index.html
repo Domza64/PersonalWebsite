@@ -1,98 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/utils/normalize.css">
+    <link rel="stylesheet" href="/css/index/style.css">
+    <link rel="stylesheet" href="/css/index/style-responsive.css">
+    <link rel="stylesheet" href="/css/utils/fonts.css">
+    <link rel="stylesheet" href="/css/utils/glowing-text.css">
 
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/style_index.css">
-    <link rel="stylesheet" href="/css/style_responsive.css">
-    <link rel="stylesheet" href="/css/glowing_text.css">
-    <link rel="stylesheet" href="/css/fonts.css">
-
+    <!-- TITLE -->
+    <link rel="icon" type="image/x-icon" href="/imgs/svg/mtb.svg">
     <title>Domza</title>
-</head>
-<body>
-  <nav>
-    <div class="gifs">
-      <img src="gifs/underconstruction.gif">
-      <img src="gifs/nocookie.gif">
-      <img src="gifs/mikuproved.gif">
-    </div>
-  </nav>
-    
-    <section class="hero-container">
-        <div class="hero">
-          <p class="show-mobile hero-title"><b>[!]</b><br>Welcome to my website</p>
-          <p class="show-desktop hero-title" style="display: none;"><b>[!]</b> Welcome to my website...<b>[!]</b></p>
-          <div class="hero-links">
-            <div style="width: 90vw;">
+  </head>
+  <body>
+    <main>
+      <section class="__hero --section-content">
+        <div class="__hero_gifs --flex-center">
+          <img src="gifs/underconstruction.gif">
+          <img src="gifs/linuxnow2.gif">
+          <img src="gifs/mikuproved.gif">
+        </div>
+        <div class="__hero_content --flex-center">
+          <h1 class="__hero_content_title_mobile"><u>[!]</u><br>Welcome to my website</h1>
+          <h1 class="__hero_content_title_desktop"><u>[!]</u> Welcome to my website...<u>[!]</u></h1>
+          <nav>
+            <ul class="--flex-center">
+              <li><a href="#about"><u>&#60;/</u>About me<u>&#62;</u></a></li>
+              <li><a href="#projects"><u>&#60;/</u>Programing projects<u>&#62;</u></a></li>
+              <li><a href="https://github.com/Domza64" target="_blank"><u>&#60;/</u>Github<u>&#62;</u></a></li>
+              <li><a href="mtb.html"><u>&#60;/</u>MTB<u>&#62;</u></a></li>
+              <li><a href="fpv.html"><u>&#60;/</u>FPV<u>&#62;</u></a></li>
+              <li><a href="photography.html"><u>&#60;/</u>Photograohy<u>&#62;</u></a></li>
+            </ul>
+          </nav>
+        </div>
+        <img src="imgs/svg/mtb4.svg" alt="Cool mtb svg image" class="--mtb-image-one">
+      </section>
+      <section class="__about_me">
+        <div class="--brake-line --flex-center" id="about">
+          <span>---------<u>-</u>--------<u>--</u>------<u>-</u>-------<u>-</u>--------<u>--</u>--------<u>--</u>--------<u>-</u>---------<u>-</u>-----<u>-</u>----------<u>--</u>-----</span>
+          <h2><u>|</u>AB0UT M3<u>|</u></h2>
+          <span>-------<u>-</u>---------<u>--</u>--------<u>-</u>-------<u>-</u>--------<u>-</u>--------<u>--</u>--------<u>--</u>--------<u>-</u>------------<u>---</u>--------<u>--</u>----<u>-</u>-----<u>-</u>----------<u>--</u>-----</span>
+        </div>
+        <article class="--section-content">
+          <p>
+            <u>(26. December 2022.)</u><br>
+            One day I might just spend 8 hours to write few 
+            letters here...
+          </p>
+          <p>
+            <u>(31. January 2023.)</u><br>
+            Today might be the day.<br>
+            I am Dominik.<br>
+            I have too many hobbies but too litle time so I enjoy every second<br>
+            I don't know what to writeee
+          </p>
+        </article>
+        <div class="__about_me_diary">
+          <span>Like a Diary Or Something Is </span>
+          <br>
+          <a href="diary.html">here</a>
+        </div>
+      </section>
+      <section class="__projects">
+        <div class="--brake-line --flex-center" id="projects">
+          <span>---------<u>-</u>--------<u>--</u>------<u>-</u>-------<u>-</u>--------<u>--</u>--------<u>--</u>--------<u>-</u>---------<u>-</u>-----<u>-</u>----------<u>--</u>-----</span>
+          <h2><u>|</u>PR0J3CTS<u>|</u></h2>
+          <span>-------<u>-</u>---------<u>--</u>--------<u>-</u>-------<u>-</u>--------<u>-</u>--------<u>--</u>--------<u>--</u>--------<u>-</u>------------<u>---</u>--------<u>--</u>----<u>-</u>-----<u>-</u>----------<u>--</u>-----</span>
+        </div>
+        <div class="--section-content">
+          <article>
+            <div class="__projects_article_title">
+              <h3>MysticGemstones</h3>
+              <span>&nbsp;- Minecraft mod</span>
+            </div>
+            <span>A minecraft mod that adds magical gemstones to minecraft...</span>
+            <p>
+              This is my very first project; When I started to learn 
+              programing I needed something, some project to keep me going...
+              And thats how it started, I decited to make Minecraft 
+              mod since I loved playing modded minecraft. 
+              Very simple :>
+            </p>
+            <span>
+              Website: <a href="https://mysticgemstones.xyz" target="_blank">
+              <u>&#60;/</u>Mystic Gemstones Website<u>></u></a>
+            </span>
+            <br>
+            <span>
+              Project ond GitHub: <a href="https://github.com/MysticGemstonesMod/MysticGemstones" target="_blank">
+              <u>&#60;/</u>Mystic Gemstones<u>></u></a>
+            </span>
+          </article>
+          <article>
+              <div class="__projects_article_title">
+                <h3>Java Dungeon</h3>
+                <span>&nbsp;- 2d game</span>
+              </div>
+              <span class="__projects_article_description">Simple 2d game written in Java using <a href="https://libgdx.com/" target="_blank">libGDX</a>.</span>
               <p>
-                <a href="#about"><b>&#60;/</b>About me<b>&#62;</b></a>
-                <a href="#projects"><b>&#60;/</b>Programing projects<b>&#62;</b></a>
-                <a href="https://github.com/Domza64"><b>&#60;/</b>Github<b>&#62;</b></a>
-                <a href="mtb.html"><b>&#60;/</b>MTB<b>&#62;</b></a>
-                <a href=""><b>&#60;/</b>FPV<b>&#62;</b></a>
-                <a href="photography.html"><b>&#60;/</b>Photograohy<b>&#62;</b></a>
+                For a long time I just wanted to make some simple game. 
+                Nothing compliceted just something that looks nice, 
+                has nice music and just looks beautiful... For now this 
+                project is non of that but I hope that it one day will be.
               </p>
-          </div>
+              <span>Project ond GitHub: <a href="https://github.com/Domza64/Java-Dungeon" target="_blank">
+                <u>&#60;/</u>Java Dungeon<u>></u></a>
+              </span>
+          </article>
         </div>
+      </section>
+      <section class="__mtb">
+        <div class="--brake-line --flex-center" id="projects">
+          <span>---------<u>-</u>--------<u>--</u>------<u>-</u>-------<u>-</u>--------<u>--</u>--------<u>--</u>--------<u>-</u>---------<u>-</u>-----<u>-</u>----------<u>--</u>-----</span>
+          <h2><u>|</u>MTB<u>|</u></h2>
+          <span>-------<u>-</u>---------<u>--</u>--------<u>-</u>-------<u>-</u>--------<u>-</u>--------<u>--</u>--------<u>--</u>--------<u>-</u>------------<u>---</u>--------<u>--</u>----<u>-</u>-----<u>-</u>----------<u>--</u>-----</span>
+          <img src="imgs/svg/mtbfinal.svg" alt="Cool mtb svg image">
+          <span class="__mtb_text">
+            See More Of MTB
+            <br>
+            <a href="mtb.html">here</a>
+          </span>
         </div>
-    </section>
-
-
-    <div class="brake-line" id="about">
-      <p>---------<b>-</b>--------<b>--</b>------<b>-</b>-------<b>-</b>--------<b>--</b>--------<b>--</b>--------<b>-</b>---------<b>-</b>-----<b>-</b>----------<b>--</b>-----</p>
-      <h1>|AB0UT M3|</h1>
-      <p>-------<b>-</b>---------<b>--</b>--------<b>-</b>-------<b>-</b>--------<b>-</b>--------<b>--</b>--------<b>--</b>--------<b>-</b>------------<b>---</b>--------<b>--</b>----<b>-</b>-----<b>-</b>----------<b>--</b>-----</p>
-    </div>
-    <section style="text-align: center; margin: 40px 20px;">
-      <p>One day I might just spend 8 hours to write few letters here... (26. December 2022.)</p>
-      <br>
-      <p>Today might be the day. (31. January 2023.)</p>
-      <p>I am Dominik.</p>
-      <p>I have too many hobbies</p>
-      <p>I don't know what to writeee</p>
-    </section>
-
-
-    <div class="brake-line" id="projects" style="margin-top: 250px;">
-      <p>---------<b>-</b>--------<b>--</b>------<b>-</b>-------<b>-</b>--------<b>--</b>--------<b>--</b>--------<b>-</b>---------<b>-</b>-----<b>-</b>----------<b>--</b>-----</p>
-      <h1>|PR0J3CTS|</h1>
-      <p>-------<b>-</b>---------<b>--</b>--------<b>-</b>-------<b>-</b>--------<b>-</b>--------<b>--</b>--------<b>--</b>--------<b>-</b>------------<b>---</b>--------<b>--</b>----<b>-</b>-----<b>-</b>----------<b>--</b>-----</p>
-    </div>
-    
-    <div class="projects-section-container">
-      <div class="projects-section">
-        <h3>MysticGemstones<span style="font-weight: 200;"> - Minecraft mod</span></h3>
-        <p>A minecraft mod that adds magical gemstones to minecraft...</p>
-        <br>
-        <p>This is my very first project; When I started to learn programing I needed something, some project to keep me going...
-          And thats how it started, I decited to make Minecraft mod since I loved playing modded minecraft. Very simple :></p>
-        <br>
-        <p>Website: <a href="https://mysticgemstones.xyz" style="font-weight: 300;"><b>&#60;/</b>Mystic Gemstones Website<b>></b></a></p>
-        <p>Project ond GitHub: <a href="https://github.com/MysticGemstonesMod/MysticGemstones" style="font-weight: 300;"><b>&#60;/</b>Mystic Gemstones<b>></b></a></p>
+      </section>
+    </main>
+    <footer class="--flex-center --section-content">
+      <div class="__footer_image_container">
+        <img src="imgs/svg/mtb5.svg" alt="Cool mtb svg image" class="--mtb-image-two">
       </div>
-    </div>
-
-    <div class="projects-section-container">
-      <div class="projects-section">
-        <h3>Java Dungeon<span style="font-weight: 200;"> - 2d game</span></h3>
-        <p>Simple 2d game written in Java using <a href="https://libgdx.com/" style="font-weight: 300; text-decoration: underline;">libGDX</a>.</p>
-        <br>
-        <p>For a long time I just wanted to make some simple game. Nothing compliceted just something that looks nice, has nice music and just
-          looks beautiful... For now this project is non of that but I hope that it one day will be.
-        </p>
-        <br>
-        <p>Project ond GitHub: <a href="https://github.com/Domza64/Java-Dungeon" style="font-weight: 300;"><b>&#60;/</b>Java Dungeon<b>></b></a></p>
-      </div>
-    </div>
-
-    <footer style="text-align: center; font-size: 0.9em; margin: 150px 20px 40px 20px;">
-      <p><b>>_<</b></p><br>
-      <p>Every website has to have a footer to look professional.. Right?</p>
+      <span class="__footer_something">>_<</span>
+      <span class="__footer_text">
+        Every website has to have a footer to look professional.. Right?
+      </span>
     </footer>
-
-</body>
+  </body>
 </html>

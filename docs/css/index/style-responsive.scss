@@ -1,0 +1,16 @@
+@media only screen and (min-width: 640px) {
+    .__hero_content_title_desktop {
+        display: block !important;
+    }
+    .__hero_content_title_mobile {
+        display: none;
+    }
+    .__mtb {
+        span {
+            transform: translateX(0px) !important;
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) { 
+}
