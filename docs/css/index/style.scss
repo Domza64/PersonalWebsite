@@ -92,15 +92,24 @@ html {
                 }
                 article {
                     margin-top: 50px;
+                    z-index: 1;
+                    p {
+                        font-weight: 300;
+                    }
                 }
                 .__about_me_diary {
                     z-index: 1;
                     font-variant-caps: petite-caps;
-                    font-size: 1.4em;
+                    font-size: 1.6em;
+                    span {
+                        font-weight: 200;
+                    }
                     a {
                         font-weight: 300;
+                        font-size: 1.4em;
                         text-decoration: underline;
                     }
+                    margin-top: 40px;
                     margin-bottom: 120px;
                 }
             }
@@ -201,9 +210,9 @@ html {
     h2 {
         letter-spacing: 16px;
         margin: 0px;
-        font-weight: 100;
+        font-weight: 200;
         u {
-            font-weight: 300;
+            font-weight: 400;
         }
         width: max-content;
     }
