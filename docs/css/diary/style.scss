@@ -33,7 +33,8 @@ body {
         margin-bottom: 120px;
         .__title {
             padding: 0px 1em;
-            height: 50vh;
+            height: 70vh;
+            margin-bottom: 100px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -60,9 +61,17 @@ body {
                 padding: 0px 1em;
                 max-width: 1000px;
                 h2 {
+                    font-variant-caps: petite-caps;
+                    font-size: 1.3em;
                     font-weight: 300;
-                    font-size: 1em;
-                    margin: 8px;
+                    u {
+                        text-decoration: none;
+                        font-size: 0.7em;
+                        margin: 8px;
+                    }
+                    br {
+                        margin-bottom: 2px;
+                    }
                 }
                 p {
                     margin: 0px;
@@ -70,11 +79,26 @@ body {
                 br {
                     margin-bottom: 12px;
                 }
+                img {
+                    width: 85%;
+                    max-width: 550px;
+                    margin-top: 2em;
+                    margin-bottom: 5em;
+                    border-radius: 0px;
+                    padding: 4px;
+                    border: #24b729;
+                    border-style: dashed;
+                    border-width: 2px;
+                }
+                b {
+                    font-weight: 300;
+                }
             }
         }
     }
     footer {
         padding: 40px 20px;
+        font-weight: 300;
     }
 }
 

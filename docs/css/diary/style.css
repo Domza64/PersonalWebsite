@@ -36,7 +36,8 @@ body main {
 }
 body main .__title {
   padding: 0px 1em;
-  height: 50vh;
+  height: 70vh;
+  margin-bottom: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -65,9 +66,17 @@ body main .__articles article {
   max-width: 1000px;
 }
 body main .__articles article h2 {
+  font-variant-caps: petite-caps;
+  font-size: 1.3em;
   font-weight: 300;
-  font-size: 1em;
+}
+body main .__articles article h2 u {
+  text-decoration: none;
+  font-size: 0.7em;
   margin: 8px;
+}
+body main .__articles article h2 br {
+  margin-bottom: 2px;
 }
 body main .__articles article p {
   margin: 0px;
@@ -75,8 +84,23 @@ body main .__articles article p {
 body main .__articles article br {
   margin-bottom: 12px;
 }
+body main .__articles article img {
+  width: 85%;
+  max-width: 550px;
+  margin-top: 2em;
+  margin-bottom: 5em;
+  border-radius: 0px;
+  padding: 4px;
+  border: #24b729;
+  border-style: dashed;
+  border-width: 2px;
+}
+body main .__articles article b {
+  font-weight: 300;
+}
 body footer {
   padding: 40px 20px;
+  font-weight: 300;
 }
 
 .--picture-one {

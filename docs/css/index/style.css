@@ -35,13 +35,14 @@ html body p, html body span {
   line-height: 1.4em;
 }
 html body main {
+  margin-top: 1em;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 html body main section {
   width: 90%;
-  padding: 5%;
+  padding: 0px 5%;
   flex-direction: column;
 }
 html body main .__hero {
@@ -58,7 +59,8 @@ html body main .__hero .__hero_gifs img {
 }
 html body main .__hero .__hero_content {
   flex-direction: column;
-  height: 60%;
+  height: 50vh;
+  justify-content: flex-end;
 }
 html body main .__hero .__hero_content h1 {
   font-size: 1.8em;
@@ -69,6 +71,7 @@ html body main .__hero .__hero_content h1 u {
 }
 html body main .__hero .__hero_content .__hero_content_title_desktop {
   display: none;
+  font-size: 3em;
 }
 html body main .__hero .__hero_content ul {
   list-style-type: none;
@@ -92,9 +95,14 @@ html body main .__about_me u {
 html body main .__about_me p {
   margin-bottom: 32px;
 }
+html body main .__about_me article {
+  margin-top: 50px;
+}
 html body main .__about_me .__about_me_diary {
+  z-index: 1;
   font-variant-caps: petite-caps;
   font-size: 1.4em;
+  margin-bottom: 120px;
 }
 html body main .__about_me .__about_me_diary a {
   font-weight: 300;
@@ -104,7 +112,8 @@ html body main .__projects {
   overflow: hidden;
 }
 html body main .__projects article {
-  margin-bottom: 100px;
+  margin-bottom: 160px;
+  margin-top: 80px;
 }
 html body main .__projects article .__projects_article_description a {
   text-decoration: underline;
@@ -184,7 +193,6 @@ html body footer .__footer_text {
 
 .--brake-line {
   overflow: hidden;
-  padding-top: 60px;
   flex-direction: column;
 }
 .--brake-line span {

@@ -32,9 +32,10 @@ html {
             line-height: 1.4em;
         }
         main {
+            margin-top: 1em;
             section {
                 width: 90%;
-                padding: 5%;
+                padding: 0px 5%;
                 flex-direction: column;
             }
             display: flex;
@@ -53,7 +54,8 @@ html {
                 }
                 .__hero_content {
                     flex-direction: column;
-                    height: 60%;
+                    height: 50vh;
+                    justify-content: flex-end;
                     h1 {
                         font-size: 1.8em;
                         font-weight: 200;
@@ -63,6 +65,7 @@ html {
                     }
                     .__hero_content_title_desktop {
                         display: none;
+                        font-size: 3em;
                     }
                     ul {
                         list-style-type: none;
@@ -87,19 +90,25 @@ html {
                 p {
                     margin-bottom: 32px;
                 }
+                article {
+                    margin-top: 50px;
+                }
                 .__about_me_diary {
+                    z-index: 1;
                     font-variant-caps: petite-caps;
                     font-size: 1.4em;
                     a {
                         font-weight: 300;
                         text-decoration: underline;
                     }
+                    margin-bottom: 120px;
                 }
             }
             .__projects {
                 overflow: hidden;
                 article {
-                    margin-bottom: 100px;
+                    margin-bottom: 160px;
+                    margin-top: 80px;
                     .__projects_article_description {
                         a {
                             text-decoration: underline;
@@ -182,7 +191,6 @@ html {
 }
 .--brake-line {
     overflow: hidden;
-    padding-top: 60px;
     flex-direction: column;
     span {
         font-weight: 200;
