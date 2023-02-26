@@ -205,6 +205,8 @@ html body footer .__footer_text {
   letter-spacing: 16px;
   margin: 0px;
   font-weight: 100;
+  width: -moz-max-content;
+  width: max-content;
 }
 .--brake-line h2 u {
   font-weight: 300;
