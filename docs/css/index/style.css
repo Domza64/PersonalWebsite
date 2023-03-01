@@ -87,19 +87,13 @@ html body main .__hero .__hero_content ul li u {
 html body main .__about_me {
   overflow: hidden;
   text-align: center;
-  font-weight: 200;
-}
-html body main .__about_me u {
-  font-weight: 300;
-}
-html body main .__about_me p {
-  margin-bottom: 32px;
 }
 html body main .__about_me article {
+  max-width: 800px;
   margin-top: 50px;
   z-index: 1;
 }
-html body main .__about_me article p {
+html body main .__about_me article p, html body main .__about_me article span, html body main .__about_me article h3 {
   font-weight: 300;
 }
 html body main .__about_me .__about_me_diary {
@@ -108,9 +102,6 @@ html body main .__about_me .__about_me_diary {
   font-size: 1.6em;
   margin-top: 40px;
   margin-bottom: 120px;
-}
-html body main .__about_me .__about_me_diary span {
-  font-weight: 200;
 }
 html body main .__about_me .__about_me_diary a {
   font-weight: 300;
@@ -205,6 +196,8 @@ html body footer .__footer_text {
   flex-direction: column;
 }
 .--brake-line span {
+  width: -moz-max-content;
+  width: max-content;
   font-weight: 200;
 }
 .--brake-line span u {

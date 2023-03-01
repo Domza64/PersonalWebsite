@@ -1,0 +1,48 @@
+:root {
+    --background-color: black;
+    --green: #24b729;
+    --dark-green: #188d1c;
+}
+body {
+    height: 100vh;
+    font-family: IBM-PlexMono;
+    margin: 0px;
+    background-color: var(--background-color);
+    color: var(--green);
+    header {
+        margin-top: 1.2em;
+        width: 100%;
+        text-align: center;
+        a {
+            font-size: 1.2em;
+            font-weight: 200;
+            text-decoration: none;
+            color: var(--green);
+            &:hover {
+                text-decoration: underline;
+                color: var(--dark-green);
+                text-shadow: none;
+            }
+            u {
+                text-decoration: none;
+                font-weight: 900;
+            }
+        }
+    }
+    main {
+        height: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        h1 {
+            text-shadow: none;
+            font-size: 8em;
+            margin: 20px;
+            font-family: monospace;
+        }
+        img {
+            width: 220px;
+        }
+    }
+}

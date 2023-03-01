@@ -83,17 +83,11 @@ html {
             .__about_me {
                 overflow: hidden;
                 text-align: center;
-                font-weight: 200;
-                u {
-                    font-weight: 300;
-                }
-                p {
-                    margin-bottom: 32px;
-                }
                 article {
+                    max-width: 800px;
                     margin-top: 50px;
                     z-index: 1;
-                    p {
+                    p, span, h3 {
                         font-weight: 300;
                     }
                 }
@@ -101,9 +95,6 @@ html {
                     z-index: 1;
                     font-variant-caps: petite-caps;
                     font-size: 1.6em;
-                    span {
-                        font-weight: 200;
-                    }
                     a {
                         font-weight: 300;
                         font-size: 1.4em;
@@ -202,6 +193,7 @@ html {
     overflow: hidden;
     flex-direction: column;
     span {
+        width: max-content;
         font-weight: 200;
         u {
             font-weight: 400;
@@ -211,10 +203,10 @@ html {
         letter-spacing: 16px;
         margin: 0px;
         font-weight: 200;
+        width: max-content;
         u {
             font-weight: 400;
         }
-        width: max-content;
     }
 }
 .--section-content {
