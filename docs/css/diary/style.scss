@@ -68,6 +68,7 @@ body {
                     font-variant-caps: petite-caps;
                     font-size: 1.3em;
                     font-weight: 300;
+                    margin-top: 3em;
                     u {
                         text-decoration: none;
                         font-size: 0.7em;
@@ -87,7 +88,7 @@ body {
                     width: 85%;
                     max-width: 550px;
                     margin-top: 2em;
-                    margin-bottom: 5em;
+                    margin-bottom: 2em;
                     border-radius: 0px;
                     padding: 4px;
                     border: #24b729;
@@ -95,6 +96,10 @@ body {
                     border-width: 2px;
                 }
                 b {
+                    font-weight: 300;
+                }
+                a {
+                    font-size: 1em;
                     font-weight: 300;
                 }
             }
@@ -110,4 +115,16 @@ body {
     width: 100vw;
     opacity: 0.9;
     max-width: 1200px;
+}
+.--photo-w-description-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.--photo-w-description {
+    margin-bottom: 1em !important;
+}
+.--photo-description {
+    max-width: 500px;
 }

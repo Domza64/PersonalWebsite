@@ -73,6 +73,7 @@ body main .__articles article h2 {
   font-variant-caps: petite-caps;
   font-size: 1.3em;
   font-weight: 300;
+  margin-top: 3em;
 }
 body main .__articles article h2 u {
   text-decoration: none;
@@ -92,7 +93,7 @@ body main .__articles article img {
   width: 85%;
   max-width: 550px;
   margin-top: 2em;
-  margin-bottom: 5em;
+  margin-bottom: 2em;
   border-radius: 0px;
   padding: 4px;
   border: #24b729;
@@ -100,6 +101,10 @@ body main .__articles article img {
   border-width: 2px;
 }
 body main .__articles article b {
+  font-weight: 300;
+}
+body main .__articles article a {
+  font-size: 1em;
   font-weight: 300;
 }
 body footer {
@@ -111,4 +116,19 @@ body footer {
   width: 100vw;
   opacity: 0.9;
   max-width: 1200px;
+}
+
+.--photo-w-description-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.--photo-w-description {
+  margin-bottom: 1em !important;
+}
+
+.--photo-description {
+  max-width: 500px;
 }/*# sourceMappingURL=style.css.map */
