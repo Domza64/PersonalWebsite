@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="/css/utils/fonts.css">
     <link rel="stylesheet" href="/css/utils/glowing-text.css">
 
+    <!-- Scripts -->
+    <script src="/js/play-audio.js"></script>
+
     <!-- TITLE -->
     <link rel="icon" type="image/x-icon" href="/imgs/svg/mtb.svg">
     <title>Dominik Juricic | Domza64</title>
@@ -20,7 +23,7 @@
         <div class="__hero_gifs --flex-center">
           <img src="gifs/underconstruction.gif">
           <img src="gifs/linuxnow2.gif">
-          <img src="gifs/mikuproved.gif">
+          <img src="gifs/mikuproved.gif" onclick="playAudio()">
         </div>
         <div class="__hero_content --flex-center">
           <h1 class="__hero_content_title_mobile"><u>[!]</u><br>Welcome to my website</h1>
@@ -33,6 +36,8 @@
               <li><a href="mtb.html"><u>&#60;/</u>MTB<u>&#62;</u></a></li>
               <li><a href="fpv.html"><u>&#60;/</u>FPV<u>&#62;</u></a></li>
               <li><a href="photography.html"><u>&#60;/</u>Photography<u>&#62;</u></a></li>
+              <li><a href="diary.html"><u>&#60;/</u>Diary<u>&#62;</u></a></li>
+              <li><a href="#sign-book"><u>&#60;/</u>Sign book<u>&#62;</u></a></li>
             </ul>
           </nav>
         </div>
@@ -55,6 +60,7 @@
             <br>
             - Way too many hobbies but too litle time.. at least im never bored
           </span>
+          <script src="/js/read-db.js"></script>
           <p>
             When I'm not sleeping, I'm usually: riding my bike or skateboard, flying drones, RC cars,
             drawing, playing guitar, fixing up my bike or my TOMOS APN4, sometimes I go 
@@ -132,11 +138,65 @@
           <a href="mtb.html">here</a>
         </span>
       </section>
+      <section class="__sign_book --flex-center">
+        <div class="--brake-line --flex-center" id="sign-book">
+          <span>---------<u>-</u>--------<u>--</u>------<u>-</u>-------<u>-</u>--------<u>--</u>--------<u>--</u>--------<u>-</u>---------<u>-</u>-----<u>-</u>----------<u>--</u>-----</span>
+          <h2><u>|</u>S1GN BO0K<u>|</u></h2>
+          <span>-------<u>-</u>---------<u>--</u>--------<u>-</u>-------<u>-</u>--------<u>-</u>--------<u>--</u>--------<u>--</u>--------<u>-</u>------------<u>---</u>--------<u>--</u>----<u>-</u>-----<u>-</u>----------<u>--</u>-----</span>
+        </div>
+        <h3>[!] Section under construction [!]</h3>
+        <span style="text-align: center;">
+          This will pull messages from database but first 
+          I need to migrate site to a dedicated host 
+          instead of using github pages.
+        </span>
+        <div class="__sign_book_content">
+          <div class="__sign_book_content_signatures">
+            <div class="__sign_book_content_message">
+              <span class="__sign_book_content_message_name">Domza (12.3.2021)</span>
+              <br>
+              <span>This is signed by domza yoo pretty cool</span>
+            </div>
+            <div class="__sign_book_content_message">
+              <span class="__sign_book_content_message_name">Domza (12.3.2021)</span>
+              <br>
+              <span>This is signed by domza yoo pretty cool</span>
+            </div>
+            <div class="__sign_book_content_message">
+              <span class="__sign_book_content_message_name">Domza (12.3.2021)</span>
+              <br>
+              <span>This is signed by domza yoo pretty cool</span>
+            </div>
+            <div class="__sign_book_content_message">
+              <span class="__sign_book_content_message_name">Domza (12.3.2021)</span>
+              <br>
+              <span>This is signed by domza yoo pretty cool</span>
+            </div>
+            <div class="__sign_book_content_message">
+              <span class="__sign_book_content_message_name">Domza (12.3.2021)</span>
+              <br>
+              <span>This is signed by domza yoo pretty cool</span>
+            </div>
+          </div>
+          <div class="__sign_book_content_input">
+            <span>Enter your name and message.</span>
+            <input type="text" maxlength="12" placeholder="Name" required>
+            <textarea rows="3" maxlength="200" placeholder="Message" required></textarea>
+            <button>Submit</button>
+            <span>This has absolutely no protection so please don't abuse it. :)</span>
+          </div>
+        </div>
+      </section>
     </main>
     <footer class="--flex-center">
-      <!--<img src="imgs/svg/mtb5.svg" alt="Cool mtb svg image" class="__footer_image">-->
-      <div style="height: 550px;"></div>
       <span class="__footer_something">>_<</span>
+      <div class="__footer_contact_info">
+        <span><b>- CONTACT M3 -</b></span>
+        <span><b>GSM / Signal:</b> <a href="tel:+385955054865">+385 95 505 4865</a></span>
+        <span><b>e-mail:</b> <a href="mailto:juricicdominik@protonmail.com" target="_blank">juricicdominik@protonmail.com</a></span>
+        <span><b>Matrix:</b> @domza64:matrix.org</span>
+        <span><b>Session:</b> 0560111f953c6f27a12b537514c68d4fee6b47ed2f2c7f5f074b87444caad4fe21</span>
+      </div>
       <span class="__footer_text">
         Every website has to have a footer to look professional.. Right?
       </span>

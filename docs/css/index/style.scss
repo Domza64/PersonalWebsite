@@ -85,7 +85,7 @@ html {
                 text-align: center;
                 article {
                     max-width: 800px;
-                    margin-top: 50px;
+                    margin-top: 80px;
                     z-index: 1;
                     p, span, h3 {
                         font-weight: 300;
@@ -101,7 +101,7 @@ html {
                         text-decoration: underline;
                     }
                     margin-top: 40px;
-                    margin-bottom: 120px;
+                    margin-bottom: 160px;
                 }
             }
             .__projects {
@@ -154,32 +154,95 @@ html {
                         font-weight: 300;
                         font-size: 1.6em;
                     }
+                    margin-bottom: 160px;
+                }
+            }
+            .__sign_book {
+                overflow: hidden;
+                .__sign_book_content {
+                    margin-top: 80px;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    .__sign_book_content_signatures {
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        text-align: center;
+                        width: 100%;
+                        max-width: 1200px;
+                        gap: 4em;
+                        .__sign_book_content_message {
+                            width: 100%;
+                            .__sign_book_content_message_name {
+                                font-weight: 300;
+                            }
+                        }
+                    }
+                    .__sign_book_content_input {
+                        max-width: 700px;
+                        margin-top: 6em;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 1em;
+                        input, textarea {
+                            background-color: black;
+                            border-color: var(--green);
+                            border-style: dotted;
+                            color: var(--green);
+                        }
+                        .__sign_book_content_input_message {
+                            min-height: 80px;
+                            word-wrap: break-word;
+                        }
+                        button {
+                            background-color: black;
+                            color: var(--green);
+                            border-color: var(--green);
+                            border-style: dotted;
+                            width: fit-content;
+                            padding: 4px 26px;
+                            &:hover {
+                                color: var(--dark-green);
+                                border-color: var(--dark-green);
+                                border-style: dashed;
+                            }
+                        }
+                    }
                 }
             }
         }
         footer {
-            overflow: hidden;
+            width: 90%;
             text-align: center;
             flex-direction: column;
-            gap: 2em;
-            margin-top: -280px;
+            gap: 3em;
             font-size: 0.9em;
+            margin: 250px 0px 50px 0px;
+            padding: 0px 5%;
             span {
                 font-weight: 300;
-            }
-            .__footer_image {
-                transform: translateY(300px);
-                width: 100%;
-                max-width: 500px;
-                opacity: 0.4;
-                clip-path: inset(0px 0px 80px 0px)
             }
             .__footer_something {
                 font-size: 1.6em;
                 font-weight: 900;
             }
             .__footer_text {
-                margin-bottom: 50px;
+                padding: 0px 2em;
+            }
+            .__footer_contact_info {
+                display: flex;
+                gap: 5px;
+                flex-direction: column;
+                word-wrap: break-word;
+                max-width: 100%;
+                span {
+                    font-weight: 200;
+                    b {
+                        font-weight: 300;   
+                    }
+                }
             }
         }
     }

@@ -90,7 +90,7 @@ html body main .__about_me {
 }
 html body main .__about_me article {
   max-width: 800px;
-  margin-top: 50px;
+  margin-top: 80px;
   z-index: 1;
 }
 html body main .__about_me article p, html body main .__about_me article span, html body main .__about_me article h3 {
@@ -101,7 +101,7 @@ html body main .__about_me .__about_me_diary {
   font-variant-caps: petite-caps;
   font-size: 1.6em;
   margin-top: 40px;
-  margin-bottom: 120px;
+  margin-bottom: 160px;
 }
 html body main .__about_me .__about_me_diary a {
   font-weight: 300;
@@ -152,37 +152,100 @@ html body main .__mtb .__mtb_text {
   font-size: 1.6em;
   text-align: center;
   font-variant-caps: petite-caps;
+  margin-bottom: 160px;
 }
 html body main .__mtb .__mtb_text a {
   text-decoration: underline;
   font-weight: 300;
   font-size: 1.6em;
 }
-html body footer {
+html body main .__sign_book {
   overflow: hidden;
+}
+html body main .__sign_book .__sign_book_content {
+  margin-top: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+html body main .__sign_book .__sign_book_content .__sign_book_content_signatures {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  max-width: 1200px;
+  gap: 4em;
+}
+html body main .__sign_book .__sign_book_content .__sign_book_content_signatures .__sign_book_content_message {
+  width: 100%;
+}
+html body main .__sign_book .__sign_book_content .__sign_book_content_signatures .__sign_book_content_message .__sign_book_content_message_name {
+  font-weight: 300;
+}
+html body main .__sign_book .__sign_book_content .__sign_book_content_input {
+  max-width: 700px;
+  margin-top: 6em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+html body main .__sign_book .__sign_book_content .__sign_book_content_input input, html body main .__sign_book .__sign_book_content .__sign_book_content_input textarea {
+  background-color: black;
+  border-color: var(--green);
+  border-style: dotted;
+  color: var(--green);
+}
+html body main .__sign_book .__sign_book_content .__sign_book_content_input .__sign_book_content_input_message {
+  min-height: 80px;
+  word-wrap: break-word;
+}
+html body main .__sign_book .__sign_book_content .__sign_book_content_input button {
+  background-color: black;
+  color: var(--green);
+  border-color: var(--green);
+  border-style: dotted;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 4px 26px;
+}
+html body main .__sign_book .__sign_book_content .__sign_book_content_input button:hover {
+  color: var(--dark-green);
+  border-color: var(--dark-green);
+  border-style: dashed;
+}
+html body footer {
+  width: 90%;
   text-align: center;
   flex-direction: column;
-  gap: 2em;
-  margin-top: -280px;
+  gap: 3em;
   font-size: 0.9em;
+  margin: 250px 0px 50px 0px;
+  padding: 0px 5%;
 }
 html body footer span {
   font-weight: 300;
-}
-html body footer .__footer_image {
-  transform: translateY(300px);
-  width: 100%;
-  max-width: 500px;
-  opacity: 0.4;
-  -webkit-clip-path: inset(0px 0px 80px 0px);
-          clip-path: inset(0px 0px 80px 0px);
 }
 html body footer .__footer_something {
   font-size: 1.6em;
   font-weight: 900;
 }
 html body footer .__footer_text {
-  margin-bottom: 50px;
+  padding: 0px 2em;
+}
+html body footer .__footer_contact_info {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  word-wrap: break-word;
+  max-width: 100%;
+}
+html body footer .__footer_contact_info span {
+  font-weight: 200;
+}
+html body footer .__footer_contact_info span b {
+  font-weight: 300;
 }
 
 .--flex-center {
