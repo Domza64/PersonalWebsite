@@ -1,0 +1,12 @@
+@media only screen and (min-width: 800px) { 
+    .__gallery_images_container {
+        max-height: 320px !important;
+        width: 47% !important;
+    }
+}
+@media only screen and (min-width: 1200px) { 
+    .__gallery_images_container {
+        max-height: 240px !important;
+        width: 31% !important;
+    }
+}

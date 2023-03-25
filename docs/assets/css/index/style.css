@@ -1,0 +1,292 @@
+:root {
+  --background-color: black;
+  --green: #24b729;
+  --dark-green: #188d1c;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+html body {
+  margin: 0px;
+  background-color: var(--background-color);
+  font-family: IBM-PlexMono;
+  color: var(--green);
+}
+html body a {
+  color: var(--green);
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 200;
+}
+html body a:hover {
+  color: var(--dark-green);
+  text-decoration: underline;
+  text-shadow: none;
+}
+html body a b {
+  font-weight: 900;
+}
+html body u {
+  text-decoration: none;
+}
+html body p, html body span {
+  font-weight: 200;
+  line-height: 1.4em;
+}
+html body main {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+html body main section {
+  width: 90%;
+  padding: 0px 5%;
+  flex-direction: column;
+}
+html body main .__hero {
+  text-align: center;
+  height: 100vh;
+}
+html body main .__hero .__hero_gifs {
+  flex-wrap: wrap;
+  gap: 0.8em;
+}
+html body main .__hero .__hero_gifs img {
+  width: 160px;
+  height: 58px;
+}
+html body main .__hero .__hero_content {
+  flex-direction: column;
+  height: 50vh;
+  justify-content: flex-end;
+}
+html body main .__hero .__hero_content h1 {
+  font-size: 1.8em;
+  font-weight: 200;
+}
+html body main .__hero .__hero_content h1 u {
+  font-weight: 600;
+}
+html body main .__hero .__hero_content .__hero_content_title_desktop {
+  display: none;
+  font-size: 3em;
+}
+html body main .__hero .__hero_content ul {
+  list-style-type: none;
+  flex-wrap: wrap;
+  padding: 0px;
+}
+html body main .__hero .__hero_content ul li {
+  margin: 4px 6px;
+}
+html body main .__hero .__hero_content ul li u {
+  font-weight: 600;
+}
+html body main .__about_me {
+  overflow: hidden;
+  text-align: center;
+}
+html body main .__about_me article {
+  max-width: 800px;
+  margin-top: 80px;
+  z-index: 1;
+}
+html body main .__about_me article p, html body main .__about_me article span, html body main .__about_me article h3 {
+  font-weight: 300;
+}
+html body main .__about_me .__about_me_diary {
+  z-index: 1;
+  font-variant-caps: petite-caps;
+  font-size: 1.6em;
+  margin-top: 40px;
+  margin-bottom: 160px;
+}
+html body main .__about_me .__about_me_diary a {
+  font-weight: 300;
+  font-size: 1.4em;
+  text-decoration: underline;
+}
+html body main .__projects {
+  overflow: hidden;
+}
+html body main .__projects article {
+  margin-bottom: 160px;
+  margin-top: 80px;
+}
+html body main .__projects article .__projects_article_description a {
+  text-decoration: underline;
+  font-weight: 300;
+}
+html body main .__projects article .__projects_article_title {
+  display: flex;
+  align-items: center;
+}
+html body main .__projects article .__projects_article_title h3 {
+  font-weight: 900;
+  text-shadow: none;
+}
+html body main .__projects article .__projects_article_title span {
+  font-weight: 200;
+}
+html body main .__projects article span {
+  font-weight: 200;
+}
+html body main .__projects article span a {
+  font-weight: 300;
+}
+html body main .__projects article span a u {
+  font-weight: 900;
+}
+html body main .__mtb {
+  overflow: hidden;
+}
+html body main .__mtb img {
+  margin-top: 50px;
+  width: 100%;
+  max-width: 800px;
+}
+html body main .__mtb .__mtb_text {
+  transform: translateX(-65px) translateY(-20px);
+  font-size: 1.6em;
+  text-align: center;
+  font-variant-caps: petite-caps;
+  margin-bottom: 160px;
+}
+html body main .__mtb .__mtb_text a {
+  text-decoration: underline;
+  font-weight: 300;
+  font-size: 1.6em;
+}
+html body main .__guest_book {
+  overflow: hidden;
+}
+html body main .__guest_book .__guest_book_content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+html body main .__guest_book .__guest_book_content .__guest_book_content_signatures {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  max-width: 1200px;
+  gap: 4em;
+  margin: 7em 0px;
+}
+html body main .__guest_book .__guest_book_content .__guest_book_content_signatures .__guest_book_content_message {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+html body main .__guest_book .__guest_book_content .__guest_book_content_signatures .__guest_book_content_message .__guest_book_content_message_author {
+  font-weight: 300;
+}
+html body main .__guest_book .__guest_book_content .__guest_book_content_signatures .__guest_book_content_message .__guest_book_content_message_text {
+  font-weight: 200;
+}
+html body main .__guest_book .__guest_book_content .__guest_book_content_input {
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+html body main .__guest_book .__guest_book_content .__guest_book_content_input input, html body main .__guest_book .__guest_book_content .__guest_book_content_input textarea {
+  background-color: black;
+  border-color: var(--green);
+  border-style: dotted;
+  color: var(--green);
+}
+html body main .__guest_book .__guest_book_content .__guest_book_content_input .__guest_book_content_input_message {
+  min-height: 80px;
+  word-wrap: break-word;
+}
+html body main .__guest_book .__guest_book_content .__guest_book_content_input .__guest_book_content_input_button {
+  background-color: black;
+  color: var(--green);
+  border-color: var(--green);
+  border-style: dotted;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 4px 26px;
+}
+html body main .__guest_book .__guest_book_content .__guest_book_content_input .__guest_book_content_input_button:hover {
+  color: var(--dark-green);
+  border-color: var(--dark-green);
+  border-style: dashed;
+}
+html body footer {
+  width: 90%;
+  text-align: center;
+  flex-direction: column;
+  gap: 3em;
+  font-size: 0.9em;
+  margin: 250px 0px 50px 0px;
+  padding: 0px 5%;
+}
+html body footer span {
+  font-weight: 300;
+}
+html body footer .__footer_something {
+  font-size: 1.6em;
+  font-weight: 900;
+}
+html body footer a {
+  font-weight: 300;
+}
+html body footer .__footer_contact_info {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  word-wrap: break-word;
+  max-width: 100%;
+}
+html body footer .__footer_contact_info span {
+  font-weight: 200;
+}
+html body footer .__footer_contact_info span b {
+  font-weight: 300;
+}
+
+.--flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.--brake-line {
+  overflow: hidden;
+  flex-direction: column;
+}
+.--brake-line span {
+  width: -moz-max-content;
+  width: max-content;
+  font-weight: 200;
+}
+.--brake-line span u {
+  font-weight: 400;
+}
+.--brake-line h2 {
+  letter-spacing: 16px;
+  margin: 0px;
+  font-weight: 200;
+  width: -moz-max-content;
+  width: max-content;
+}
+.--brake-line h2 u {
+  font-weight: 400;
+}
+
+.--section-content {
+  max-width: 1200px;
+}
+
+.--mtb-image-one {
+  opacity: 0.35;
+  transform: translateY(-20px);
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */

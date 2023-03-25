@@ -1,0 +1,144 @@
+:root {
+  --background-color: black;
+  --green: #24b729;
+  --dark-green: #188d1c;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  text-align: center;
+  background-color: var(--background-color);
+  color: var(--green);
+  font-family: IBM-PlexMono;
+  margin: 0px;
+  font-weight: 200;
+}
+body a {
+  color: var(--green);
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: 200;
+}
+body a:hover {
+  color: var(--dark-green);
+  text-decoration: underline;
+  text-shadow: none;
+}
+body a b {
+  font-weight: 900;
+}
+body header {
+  padding: 20px 0px;
+}
+body main {
+  font-size: 1.1em;
+  line-height: 1.3em;
+  margin-bottom: 120px;
+}
+body main .__title {
+  padding: 0px 1em;
+  height: 70vh;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body main .__title h1 {
+  font-size: 3.2em;
+  font-weight: 300;
+  font-variant-caps: petite-caps;
+}
+body main .__title img {
+  opacity: 0.25;
+  position: absolute;
+  width: 100%;
+  max-width: 600px;
+}
+body main .__articles {
+  padding: 20px 0px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 100px;
+}
+body main .__articles article {
+  padding: 0px 1em;
+  max-width: 1000px;
+}
+body main .__articles article h3 {
+  font-size: 1em;
+  font-weight: 300;
+}
+body main .__articles article h2 {
+  font-variant-caps: petite-caps;
+  font-size: 1.3em;
+  font-weight: 300;
+  margin-top: 3em;
+}
+body main .__articles article h2 u {
+  text-decoration: none;
+  font-size: 0.7em;
+  margin: 8px;
+}
+body main .__articles article h2 br {
+  margin-bottom: 2px;
+}
+body main .__articles article p {
+  margin: 0px;
+}
+body main .__articles article br {
+  margin-bottom: 12px;
+}
+body main .__articles article img {
+  width: 85%;
+  max-width: 550px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  border-radius: 0px;
+  padding: 4px;
+  border: #24b729;
+  border-style: dashed;
+  border-width: 2px;
+}
+body main .__articles article b {
+  font-weight: 300;
+}
+body main .__articles article a {
+  font-size: 1em;
+  font-weight: 300;
+}
+body footer {
+  padding: 40px 20px;
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+}
+body footer a {
+  margin-bottom: 20px;
+  font-size: 1em;
+}
+
+.--picture-one {
+  width: 100vw;
+  opacity: 0.9;
+  max-width: 1200px;
+}
+
+.--photo-w-description-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.--photo-w-description {
+  margin-bottom: 1em !important;
+}
+
+.--photo-description {
+  max-width: 500px;
+}/*# sourceMappingURL=style.css.map */

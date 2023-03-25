@@ -1,0 +1,58 @@
+html body {
+  font-family: "Courier New", Courier, monospace;
+  background: radial-gradient(circle, rgb(243, 240, 255) 0%, rgb(226, 255, 255) 100%);
+  color: rgb(0, 0, 0);
+}
+html body header {
+  width: 100%;
+  text-align: center;
+}
+html body header a {
+  color: black;
+}
+html body header ul {
+  list-style: none;
+  padding: 0px;
+}
+html body main {
+  text-align: center;
+}
+html body main .__hero {
+  margin: 30vh 0px;
+}
+html body main .__gallery {
+  display: flex;
+  justify-content: center;
+}
+html body main .__gallery .__gallery_container {
+  max-width: 1200px;
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+html body main .__gallery .__gallery_container .__gallery_image {
+  width: 100%;
+  aspect-ratio: 16/9;
+  background-color: rgb(0, 24, 61);
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+html body main .__gallery .__gallery_container .__gallery_image img {
+  max-height: 100%;
+  max-width: 100%;
+}
+html body main .__gallery .__gallery_container .__gallery_image img:hover {
+  transform: scale(1.015);
+  transition: transform 800ms linear;
+}
+html body footer {
+  margin-top: 30vh;
+  margin-bottom: 5vh;
+  width: 100%;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
