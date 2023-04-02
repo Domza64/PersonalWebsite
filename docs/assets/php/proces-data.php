@@ -19,7 +19,7 @@
             // if is inserted into db output success message, else output error
             if (mysqli_query($conn, $sql)) {
                 // success
-                header('Location: ../../#guest-book');h
+                header('Location: ../../#guest-book');
               } else {
                 // error
                 echo 'Error: ' . mysqli_error($conn);

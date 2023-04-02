@@ -141,4 +141,43 @@ body footer a {
 
 .--photo-description {
   max-width: 500px;
+}
+
+.--polaroid-image {
+  width: 60%;
+  max-width: 350px;
+  padding: 1em 1em 4em 1em;
+  background-color: rgb(236, 234, 222);
+  background-color: rgb(131, 130, 128);
+  color: black;
+  text-shadow: none;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+  background-image: url("../../media/images/diary/old-paper.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.--polaroid-image span {
+  margin: 0px 18px;
+}
+.--polaroid-image img {
+  width: 100%;
+}
+.--polaroid-image:hover {
+  transform: rotate(0deg) !important;
+  transform: scale(1.015) !important;
+  transition: transform 100ms linear;
+}
+
+.--polaroid-image-container {
+  margin: 100px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 3em;
 }/*# sourceMappingURL=style.css.map */

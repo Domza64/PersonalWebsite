@@ -58,3 +58,16 @@
   src: url(../../fonts/death-rattlebb/deathrattlebb_reg.ttf);
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(../../fonts/roboto/Roboto-Bold.ttf);
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url(../../fonts/roboto/Roboto-Regular.ttf);
+  font-style: normal;
+  font-weight: 300;
+}

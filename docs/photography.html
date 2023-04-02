@@ -5,89 +5,106 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/utils/normalize.css">
+    <link rel="stylesheet" href="assets/css/utils/fonts.css">
     <link rel="stylesheet" href="assets/css/photography/style.css">
     <link rel="stylesheet" href="assets/css/photography/style-responsive.css">
     <!-- TITLE -->
     <title>Photography | Domza64</title>
 </head>
 <body>
-    <header>
+    <header class="--center-content">
         <nav>
             <ul>
-                <li><a href="index">Go back to the main page</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="photography">Photography</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#tags">Tags</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section class="__hero">
-            <img src="assets/media/images/gif/under-construction.gif" alt="Under Construction gif" width="100%">
-            <div style="background-color: black;">
-                <span style="line-height: 2em; font-size: 3em; background-color: black; color: yellow; border-style: dashed; border-color: red; border-width: 2px; padding: 20px;">
-                    THIS SITE IS UNDER HEAVY CONSTRUCTION
-                    <br>
-                    NOT FINISHED 
-                    <br>
-                    AND LOOKS LIKE SHIT AND ONLY
-                    HAS FEW RANDOM PICTURES
-                </span>
-            </div>
-            <h1>PHOTOS</h1>
-            <span>Here you can see some cool photos</span>
+            <div class="__hero_image_container"></div>
         </section>
-        <section class="__gallery">
+        <section class="__gallery --center-content" id="gallery">
+            <h2>Gallery</h2>
             <div class="__gallery_container">
                 <div class="__gallery_image">
-                    <img src="assets/media/images/photo/PHOTO_1.jpg" alt="One of my cool photos">
+                    <img src="assets/media/images/photo/IMG_2160.JPG" alt="One of my photographs">
                 </div>
                 <div class="__gallery_image">
-                    <img src="assets/media/images/photo/PHOTO_2.jpg" alt="One of my cool photos">
+                    <img src="assets/media/images/photo/IMG_2368.JPG" alt="One of my photographs">
                 </div>
                 <div class="__gallery_image">
-                    <img src="assets/media/images/photo/PHOTO_3.jpg" alt="One of my cool photos">
+                    <img src="assets/media/images/photo/IMG_2421.JPG" alt="One of my photographs">
                 </div>
                 <div class="__gallery_image">
-                    <img src="assets/media/images/photo/PHOTO_4.jpg" alt="One of my cool photos">
+                    <img src="assets/media/images/photo/PHOTO_2.jpg" alt="One of my photographs">
                 </div>
                 <div class="__gallery_image">
-                    <img src="assets/media/images/photo/PHOTO_5.jpg" alt="One of my cool photos">
+                    <img src="assets/media/images/photo/PHOTO_3.jpg" alt="One of my photographs">
                 </div>
                 <div class="__gallery_image">
-                    <img src="assets/media/images/photo/PHOTO_6.jpg" alt="One of my cool photos">
+                    <img src="assets/media/images/photo/PHOTO_4.jpg" alt="One of my photographs">
                 </div>
                 <div class="__gallery_image">
-                    <img src="assets/media/images/photo/PHOTO_7.jpg" alt="One of my cool photos">
+                    <img src="assets/media/images/photo/PHOTO_5.jpg" alt="One of my photographs">
                 </div>
                 <div class="__gallery_image">
-                    <img src="assets/media/images/photo/PHOTO_8.jpg" alt="One of my cool photos">
+                    <img src="assets/media/images/photo/PHOTO_6.jpg" alt="One of my photographs">
                 </div>
                 <div class="__gallery_image">
-                    <img src="assets/media/images/photo/PHOTO_9.jpg" alt="One of my cool photos">
+                    <img src="assets/media/images/photo/PHOTO_7.jpg" alt="One of my photographs">
                 </div>
                 <div class="__gallery_image">
-                    <img src="assets/media/images/photo/PHOTO_10.jpg" alt="One of my cool photos">
+                    <img src="assets/media/images/photo/PHOTO_8.jpg" alt="One of my photographs">
                 </div>
                 <div class="__gallery_image">
-                    <img src="assets/media/images/photo/PHOTO_11.jpg" alt="One of my cool photos">
+                    <img src="assets/media/images/photo/PHOTO_9.jpg" alt="One of my photographs">
                 </div>
                 <div class="__gallery_image">
-                    <img src="assets/media/images/photo/PHOTO_12.jpg" alt="One of my cool photos">
+                    <img src="assets/media/images/photo/PHOTO_10.jpg" alt="One of my photographs">
                 </div>
                 <div class="__gallery_image">
-                    <img src="assets/media/images/photo/PHOTO_13.jpg" alt="One of my cool photos">
+                    <img src="assets/media/images/photo/PHOTO_11.jpg" alt="One of my photographs">
                 </div>
                 <div class="__gallery_image">
-                    <img src="assets/media/images/photo/PHOTO_14.jpg" alt="One of my cool photos">
+                    <img src="assets/media/images/photo/PHOTO_12.jpg" alt="One of my photographs">
                 </div>
                 <div class="__gallery_image">
-                    <img src="assets/media/images/photo/PHOTO_15.jpg" alt="One of my cool photos">
+                    <img src="assets/media/images/photo/PHOTO_13.jpg" alt="One of my photographs">
                 </div>
                 <div class="__gallery_image">
-                    <img src="assets/media/images/photo/PHOTO_16.jpg" alt="One of my cool photos">
+                    <img src="assets/media/images/photo/PHOTO_14.jpg" alt="One of my photographs">
+                </div>
+                <div class="__gallery_image">
+                    <img src="assets/media/images/photo/PHOTO_15.jpg" alt="One of my photographs">
+                </div>
+                <div class="__gallery_image">
+                    <img src="assets/media/images/photo/PHOTO_16.jpg" alt="One of my photographs">
                 </div>
             </div>
+            <!--
+            <div class="__gallery_container">
+                <?php foreach(scandir(__DIR__ . "/assets/media/images/photo/") as $file): ?>
+                <div class="__gallery_image">
+                    <img src="assets/media/images/photo/<?php echo $file; ?>" alt="One of my photographs">
+                </div>
+                <?php endforeach; ?>
+            </div>
+                -->
+        </section>
+        <section class="__tags --center-content" id="tags">
+            <h2>TAGS</h2>
+            <ul>
+                <li>Cars</li>
+                <li>Animals</li>
+                <li>Nature</li>
+                <li>Portraits</li>
+            </ul>
         </section>
     </main>
-    <footer>
+    <footer class="--center-content">
         <span>
             This is footer and it has this text to make 
             this page look more professional...

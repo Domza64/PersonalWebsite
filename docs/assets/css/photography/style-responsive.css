@@ -7,4 +7,13 @@
   .__gallery_image {
     width: 360px !important;
   }
+  .__hero_image_container {
+    background-image: url("../../media/images/photo/IMG_2160.JPG") !important;
+  }
+}
+@media only screen and (min-width: 1500px) {
+  .__hero {
+    height: auto !important;
+    max-width: 2000px;
+  }
 }/*# sourceMappingURL=style-responsive.css.map */

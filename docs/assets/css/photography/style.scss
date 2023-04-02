@@ -1,27 +1,68 @@
 html {
+    scroll-behavior: smooth;
     body {
-        font-family: 'Courier New', Courier, monospace;
-        background: radial-gradient(circle, rgba(243,240,255,1) 0%, rgba(226,255,255,1) 100%);
-        color: rgb(0, 0, 0);
+        margin: 0px;
+        font-family: 'Roboto';
+        background: linear-gradient(30deg, rgb(0, 0, 0) 0%, rgb(14, 2, 63) 50%, rgb(0, 0, 0) 100%);
+        color: white;
         header {
-            width: 100%;
-            text-align: center;
-            a {
-                color: black;
-            }
-            ul {
-                list-style: none;
-                padding: 0px;
+            z-index: 2;
+            position: fixed;
+            top: 0px;
+            width: 100vw;
+            background: linear-gradient(30deg, rgb(0, 0, 0) 0%, rgb(14, 2, 63) 50%, rgb(0, 0, 0) 100%);
+            border-bottom-color: rgb(14, 2, 63);
+            border-bottom-color: rgb(255, 255, 255);
+            border-bottom-style: solid;
+            border-bottom-width: 2px;
+            /*background: linear-gradient(circle, rgb(15, 1, 70) 0%, rgb(0, 0, 0) 100%);*/
+            nav {
+                padding: 2em 1em;
+                font-variant-caps: all-petite-caps;
+                a {
+                    color: rgb(255, 255, 255);
+                    text-decoration: none;
+                    &:hover {
+                        color: rgb(172, 172, 172);
+                    }
+                }
+                ul {
+                    font-size: 1.5em;
+                    display: flex;
+                    gap: 10vw;
+                    list-style: none;
+                    padding: 0px;
+                    margin: 0px;
+                }
             }
         }
         main {
+            h2 {
+                margin: 0px;
+                font-family: 'Death-Rattlebb';
+                letter-spacing: 6px;
+                font-size: 5em;
+            }
             .__hero {
-                margin: 30vh 0px;
+                margin: 0px;
+                margin-bottom: 16em;
+                height:100vh;
+                aspect-ratio: 16 / 6;
+                max-width: 100vw;
+                .__hero_image_container {
+                    width: 100%;
+                    height: 100%;
+                    background-image: url('../../media/images/photo/PHOTO_4.jpg');
+                    background-position: bottom;
+                    background-attachment: fixed;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                }
             }
             text-align: center;
             .__gallery {
-                display: flex;
-                justify-content: center;
+                flex-direction: column;
+                gap: 4em;
                 .__gallery_container {
                     max-width: 1200px;
                     display: flex;
@@ -30,17 +71,16 @@ html {
                     justify-content: center;
                     align-items: center;
                     .__gallery_image {
+                        background-color: rgb(0, 0, 0);
                         width: 100%;
                         aspect-ratio: 16 / 9;
-                        background-color: rgb(0, 24, 61);
-                        padding: 5px;
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
                         overflow: hidden;
                         img {
+                            /*
                             max-height: 100%;
+                            */
                             max-width: 100%;
+                            object-fit: cover;
                             &:hover {
                                 transform: scale(1.015);
                                 -webkit-transition: transform 800ms linear;
@@ -51,12 +91,34 @@ html {
                     }
                 }
             }
+            .__tags {
+                flex-direction: column;
+                gap: 4em;
+                margin-top: 10em;
+                ul {
+                    list-style: none;
+                    margin: 0px;
+                    padding: 0px;
+                }
+            }
         }
         footer {
-            margin-top: 30vh;
-            margin-bottom: 5vh;
-            width: 100%;
-            text-align: center;
+            width: 100vw;
+            background: linear-gradient(30deg, rgb(0, 0, 0) 0%, rgb(14, 2, 63) 50%, rgb(0, 0, 0) 100%);
+            border-top-color: rgb(14, 2, 63);
+            border-top-color: rgb(255, 255, 255);
+            border-top-style: solid;
+            border-top-width: 2px;
+            margin-top: 8em;
+            font-weight: 300;
+            span {
+                margin: 3em 1em;
+            }
         }
+    }
+    .--center-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
