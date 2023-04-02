@@ -9,7 +9,22 @@
         width: 360px !important;
     }
     .__hero_image_container {
-        background-image: url('../../media/images/photo/IMG_2160.JPG') !important;
+        background-image: url('../../media/images/photo/IMG_2160.webp') !important;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    nav {
+        img {
+            display: none;
+        }
+        max-width: 2000px !important;
+        justify-content: center !important;
+    }
+    .__destkop_nav {
+        display: flex !important;
+    }
+    .__mobile_nav {
+        display: none;
     }
 }
 @media only screen and (min-width: 1500px) {

@@ -13,75 +13,92 @@
 </head>
 <body>
     <header class="--center-content">
-        <nav>
+        <nav class="__navbar">
+            <a href="photography"><span>Domza Photo</span></a>
+            <ul class="__destkop_nav">
+            <li><a href="/">Home</a></li>
+                <li><a href="#hero">Photography</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#collections">Collections</a></li>
+                <li><a href="#tags">Tags</a></li>
+            </ul>
+            <div class="__hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+        <nav class="__mobile_nav">
             <ul>
                 <li><a href="/">Home</a></li>
-                <li><a href="photography">Photography</a></li>
+                <li><a href="#hero">Photography</a></li>
                 <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#collections">Collections</a></li>
                 <li><a href="#tags">Tags</a></li>
             </ul>
         </nav>
     </header>
+    <script src="assets/js/hamburger.js"></script>
     <main>
-        <section class="__hero">
+        <section class="__hero" id="hero">
             <div class="__hero_image_container"></div>
         </section>
         <section class="__gallery --center-content" id="gallery">
             <h2>Gallery</h2>
             <div class="__gallery_container">
                 <div class="__gallery_image">
-                    <img src="assets/media/images/photo/IMG_2160.JPG" alt="One of my photographs">
+                    <img src="assets/media/images/photo/IMG_2160.webp" alt="One of my photographs">
                 </div>
                 <div class="__gallery_image">
-                    <img src="assets/media/images/photo/IMG_2368.JPG" alt="One of my photographs">
+                    <img src="assets/media/images/photo/IMG_2368.webp" alt="One of my photographs">
                 </div>
                 <div class="__gallery_image">
-                    <img src="assets/media/images/photo/IMG_2421.JPG" alt="One of my photographs">
+                    <img src="assets/media/images/photo/IMG_2421.webp" alt="One of my photographs">
                 </div>
                 <div class="__gallery_image">
-                    <img src="assets/media/images/photo/PHOTO_2.jpg" alt="One of my photographs">
+                    <img src="assets/media/images/photo/PHOTO_2.webp" alt="One of my photographs">
                 </div>
                 <div class="__gallery_image">
-                    <img src="assets/media/images/photo/PHOTO_3.jpg" alt="One of my photographs">
+                    <img src="assets/media/images/photo/PHOTO_3.webp" alt="One of my photographs">
                 </div>
                 <div class="__gallery_image">
-                    <img src="assets/media/images/photo/PHOTO_4.jpg" alt="One of my photographs">
+                    <img src="assets/media/images/photo/PHOTO_4.webp" alt="One of my photographs">
                 </div>
                 <div class="__gallery_image">
-                    <img src="assets/media/images/photo/PHOTO_5.jpg" alt="One of my photographs">
+                    <img src="assets/media/images/photo/PHOTO_5.webp" alt="One of my photographs">
                 </div>
                 <div class="__gallery_image">
-                    <img src="assets/media/images/photo/PHOTO_6.jpg" alt="One of my photographs">
+                    <img src="assets/media/images/photo/PHOTO_6.webp" alt="One of my photographs">
                 </div>
                 <div class="__gallery_image">
-                    <img src="assets/media/images/photo/PHOTO_7.jpg" alt="One of my photographs">
+                    <img src="assets/media/images/photo/PHOTO_7.webp" alt="One of my photographs">
                 </div>
                 <div class="__gallery_image">
-                    <img src="assets/media/images/photo/PHOTO_8.jpg" alt="One of my photographs">
+                    <img src="assets/media/images/photo/PHOTO_8.webp" alt="One of my photographs">
                 </div>
                 <div class="__gallery_image">
-                    <img src="assets/media/images/photo/PHOTO_9.jpg" alt="One of my photographs">
+                    <img src="assets/media/images/photo/PHOTO_9.webp" alt="One of my photographs">
                 </div>
                 <div class="__gallery_image">
-                    <img src="assets/media/images/photo/PHOTO_10.jpg" alt="One of my photographs">
+                    <img src="assets/media/images/photo/PHOTO_10.webp" alt="One of my photographs">
                 </div>
                 <div class="__gallery_image">
-                    <img src="assets/media/images/photo/PHOTO_11.jpg" alt="One of my photographs">
+                    <img src="assets/media/images/photo/PHOTO_11.webp" alt="One of my photographs">
                 </div>
                 <div class="__gallery_image">
-                    <img src="assets/media/images/photo/PHOTO_12.jpg" alt="One of my photographs">
+                    <img src="assets/media/images/photo/PHOTO_12.webp" alt="One of my photographs">
                 </div>
                 <div class="__gallery_image">
-                    <img src="assets/media/images/photo/PHOTO_13.jpg" alt="One of my photographs">
+                    <img src="assets/media/images/photo/PHOTO_13.webp" alt="One of my photographs">
                 </div>
                 <div class="__gallery_image">
-                    <img src="assets/media/images/photo/PHOTO_14.jpg" alt="One of my photographs">
+                    <img src="assets/media/images/photo/PHOTO_14.webp" alt="One of my photographs">
                 </div>
                 <div class="__gallery_image">
-                    <img src="assets/media/images/photo/PHOTO_15.jpg" alt="One of my photographs">
+                    <img src="assets/media/images/photo/PHOTO_15.webp" alt="One of my photographs">
                 </div>
                 <div class="__gallery_image">
-                    <img src="assets/media/images/photo/PHOTO_16.jpg" alt="One of my photographs">
+                    <img src="assets/media/images/photo/PHOTO_16.webp" alt="One of my photographs">
                 </div>
             </div>
             <!--
@@ -95,12 +112,21 @@
                 -->
         </section>
         <section class="__tags --center-content" id="tags">
-            <h2>TAGS</h2>
+            <h2>Tags</h2>
             <ul>
                 <li>Cars</li>
                 <li>Animals</li>
                 <li>Nature</li>
                 <li>Portraits</li>
+            </ul>
+        </section>
+        <section class="__collections --center-content" id="collections">
+            <h2>Collections</h2>
+            <span>Like photo galeries, more photos from a single event</span>
+            <ul>
+                <li>Event 1</li>
+                <li>Event 2</li>
+                <li>Event 3</li>
             </ul>
         </section>
     </main>
