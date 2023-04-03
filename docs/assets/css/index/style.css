@@ -251,6 +251,27 @@ html body footer .__footer_contact_info span {
 html body footer .__footer_contact_info span b {
   font-weight: 300;
 }
+html body footer .__footer_social_icons {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: center;
+  gap: 2em;
+}
+html body footer .__footer_social_icons a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: none;
+}
+html body footer .__footer_social_icons span {
+  font-weight: 500;
+}
+html body footer .__footer_social_icons img {
+  height: 32px;
+}
 
 .--flex-center {
   display: flex;

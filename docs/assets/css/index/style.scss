@@ -248,6 +248,28 @@ html {
                     }
                 }
             }
+            .__footer_social_icons {
+                display: flex;
+                flex-direction: row;
+                align-items: start;
+                justify-content: center;
+                gap: 2em;
+                a {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    color: white;
+                    text-shadow: none;
+                }
+                span {
+                    font-weight: 500;
+                }
+                img {
+                    height: 32px;
+                    
+                }
+            }
         }
     }
 }

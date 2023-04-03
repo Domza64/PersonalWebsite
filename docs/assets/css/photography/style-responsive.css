@@ -16,7 +16,7 @@
     max-width: 2000px !important;
     justify-content: center !important;
   }
-  nav img {
+  nav .__hamburger {
     display: none;
   }
   .__destkop_nav {

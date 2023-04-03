@@ -141,8 +141,6 @@ body {
     width: 60%;
     max-width: 350px;
     padding: 1em 1em 4em 1em;
-    background-color: rgb(236, 234, 222);
-    background-color: rgb(131, 130, 128);
     color: black;
     text-shadow: none;
     font-weight: 500;
@@ -176,3 +174,10 @@ body {
     justify-content: center;
     gap: 3em;
 }
+.--small-image {
+    width: 25% !important; 
+    min-width: 360px;
+    margin-bottom: 0px !important;
+    margin-top: 24px !important;
+}
+
