@@ -1,0 +1,18 @@
+<rss version="2.0">
+  <channel>
+    <title>Domzas's Webpage</title>
+    <link>https://www.domza.xyz</link>
+    <description>News RSS feed for Domza64's personal website</description>
+    <language>en-us</language>
+    <atom:link href="https://domza.xyz/index.xml" rel="self" type="application/rss+xml"/>
+    
+    <item>
+      <title>RSS Works!</title>
+      <link>https://domza.xyz</link>
+      <pubDate>6 Apr 2023</pubDate>
+      <description>
+        <p>RSS feed is supposed to work now,</p>
+      </description>
+    </item>
+  </channel>
+</rss> 
