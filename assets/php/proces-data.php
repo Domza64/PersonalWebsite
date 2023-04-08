@@ -13,7 +13,7 @@
               header('Location: ../../#guest-book');
               exit;
             }
-            $sql = "INSERT INTO messages (Name, Message, Date) VALUES ('$name', '$message', '$date')";
+            $sql = "INSERT INTO guest_book (Name, Message, Date) VALUES ('$name', '$message', '$date')";
             // Run validation, if doesnt pass validation output error
             // if passes validation add it to DB
             // if is inserted into db output success message, else output error

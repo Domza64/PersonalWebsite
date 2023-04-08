@@ -153,7 +153,7 @@
           <div class="__guest_book_content_signatures">
             <?php include 'assets/php/database.php'; ?>
             <?php
-              $sql = "SELECT * FROM messages";
+              $sql = "SELECT * FROM guest_book";
               $result = mysqli_query($conn, $sql);
               $signatures = mysqli_fetch_all($result, MYSQLI_ASSOC);
             ?>

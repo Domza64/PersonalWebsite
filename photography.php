@@ -130,7 +130,7 @@
     </main>
     <footer class="--center-content">
         <span>
-            This is footer and it is here just to make 
+            This is footer and it is here justc to make 
             this page look more professional...
         </span>
     </footer>
