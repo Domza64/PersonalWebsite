@@ -13,17 +13,19 @@
               header('Location: ../../#guest-book');
               exit;
             }
-            $sql = "INSERT INTO guest_book (Name, Message, Date) VALUES ('$name', '$message', '$date')";
             // Run validation, if doesnt pass validation output error
             // if passes validation add it to DB
+            if (1 == 1) { // Best input validation ever
+              $sql = "INSERT INTO guest_book (Name, Message, Date) VALUES ('$name', '$message', '$date')";
+            }
             // if is inserted into db output success message, else output error
             if (mysqli_query($conn, $sql)) {
                 // success
                 header('Location: ../../#guest-book');
-              } else {
+            } else {
                 // error
                 echo 'Error: ' . mysqli_error($conn);
-              }
+            }
         }
     }
 ?>
