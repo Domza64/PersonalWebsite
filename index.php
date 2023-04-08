@@ -166,11 +166,19 @@
             <?php endforeach; ?>
           </div>
           <form action="assets/php/proces-data.php" class="__guest_book_content_input" method="POST">
-            <span>Enter your name and message.</span>
-            <input type="text" id="name" name="name" placeholder="Enter your nickname" require>
-            <textarea id="message" name="message" placeholder="Enter message" require></textarea>
-            <input type="submit" name="submit" value="Send" class="__guest_book_content_input_button"></input>
-            <span>This has absolutely no protection so please don't abuse it. :)</span>
+            <span>Enter your nickname and message.</span>
+            <input type="text" id="name" name="name" placeholder="Enter your nickname" require maxlength="24">
+            <textarea id="message" name="message" placeholder="Enter message" require maxlength="256"></textarea>
+            <input type="submit" name="submit" value="SEND" class="__guest_book_content_input_button"></input>
+            <span class="--alert">
+              <div>
+                <u>[!] </u> 
+                Once posted you can't remove a message 
+                <u> [!]</u>
+              </div>
+              <br>
+              This has absolutely no protection so please don't abuse it. :)
+            </span>
           </form>
         </div>
       </section>

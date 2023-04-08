@@ -145,10 +145,10 @@ html {
                             max-width: 100%;
                             object-fit: cover;
                             &:hover {
-                                transform: scale(1.015);
-                                -webkit-transition: transform 800ms linear;
-                                -ms-transition: transform 800ms linear;
-                                transition: transform 800ms linear;
+                                transform: scale(1.06);
+                                -webkit-transition: transform 100ms linear;
+                                -ms-transition: transform 100ms linear;
+                                transition: transform 100ms linear;
                             }
                         }
                     }

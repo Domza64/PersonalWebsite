@@ -168,6 +168,9 @@ html body main .__guest_book .__guest_book_content {
   align-items: center;
   flex-direction: column;
 }
+html body main .__guest_book .__guest_book_content span {
+  font-weight: 300;
+}
 html body main .__guest_book .__guest_book_content .__guest_book_content_signatures {
   display: flex;
   flex-wrap: wrap;
@@ -196,10 +199,21 @@ html body main .__guest_book .__guest_book_content .__guest_book_content_input {
   gap: 1em;
 }
 html body main .__guest_book .__guest_book_content .__guest_book_content_input input, html body main .__guest_book .__guest_book_content .__guest_book_content_input textarea {
-  background-color: black;
+  background-color: rgba(255, 255, 255, 0);
+  padding: 6px;
   border-color: var(--green);
   border-style: dotted;
   color: var(--green);
+  font-family: IBM-PlexMono;
+  font-weight: 300;
+  font-size: 1.1em;
+  letter-spacing: 4px;
+}
+html body main .__guest_book .__guest_book_content .__guest_book_content_input #name {
+  font-size: 1em;
+}
+html body main .__guest_book .__guest_book_content .__guest_book_content_input #message {
+  font-size: 1em;
 }
 html body main .__guest_book .__guest_book_content .__guest_book_content_input .__guest_book_content_input_message {
   min-height: 80px;
@@ -310,4 +324,20 @@ html body footer .__footer_social_icons img {
   opacity: 0.35;
   transform: translateY(-20px);
   width: 100%;
+}
+
+.--alert {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2em;
+  font-weight: 300;
+  padding: 10px;
+  border: rgb(129, 0, 0);
+  border-width: 2px;
+  border-style: dashed;
+}
+.--alert u {
+  font-weight: 600;
 }/*# sourceMappingURL=style.css.map */

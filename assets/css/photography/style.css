@@ -149,8 +149,8 @@ html body main .__gallery .__gallery_container .__gallery_image img {
      object-fit: cover;
 }
 html body main .__gallery .__gallery_container .__gallery_image img:hover {
-  transform: scale(1.015);
-  transition: transform 800ms linear;
+  transform: scale(1.06);
+  transition: transform 100ms linear;
 }
 html body main .__tags {
   flex-direction: column;
