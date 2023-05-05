@@ -26,9 +26,10 @@
         <section class="__tags --center-content" id="tags">
             <h2>Tags</h2>
             <ul>
-                <li><a href="/photography/index.php?tag=cars">Cars</a></li>
-                <li><a href="/photography/index.php?tag=animals">Animals</a></li>
-                <li><a href="/photography/index.php?tag=animals">Nature</a></li>
+                <li><a href="/photography/index.php?tag=cars#tags">Cars</a></li>
+                <li><a href="/photography/index.php?tag=animals#tags">Animals</a></li>
+                <li><a href="/photography/index.php?tag=nature#tags">Nature</a></li>
+                <li><a href="/photography/index.php?tag=urban#tags">Urban</a></li>
             </ul>
             <div>
                 <?php require_once 'tags.php'; ?>
@@ -38,9 +39,7 @@
             <h2>Collections</h2>
             <span>Like photo galeries, more photos from a single event</span>
             <ul>
-                <li>Event 1</li>
-                <li>Event 2</li>
-                <li>Event 3</li>
+                <li><a href="/photography/index.php?event=nagrada_grada_zadra">Nagrada Grada Zadra</a></li>
             </ul>
         </section>
     </main>
