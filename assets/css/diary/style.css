@@ -6,6 +6,7 @@
 
 html {
   scroll-behavior: smooth;
+  image-rendering: pixelated;
 }
 
 body {
@@ -138,7 +139,9 @@ body footer a {
 .--photo-w-description {
   margin-bottom: 1em !important;
 }
-
+.--small-margin {
+  margin: 0.5em !important;
+}
 .--photo-description {
   max-width: 500px;
 }
