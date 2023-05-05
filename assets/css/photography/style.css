@@ -7,24 +7,24 @@ html body {
   background: linear-gradient(30deg, rgb(0, 0, 0) 0%, rgb(14, 2, 63) 50%, rgb(0, 0, 0) 100%);
   color: white;
 }
+html body a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  transition: 0.5s ease;
+}
+html body a:hover {
+  color: rgb(81, 75, 105);
+}
 html body header {
   z-index: 2;
   position: fixed;
   top: 0px;
   width: 100vw;
   flex-wrap: wrap;
-  background: rgb(18, 0, 61);
+  background: rgb(7, 0, 34);
   -webkit-backdrop-filter: blur(20.6px);
           backdrop-filter: blur(20.6px);
   font-variant-caps: all-petite-caps;
-}
-html body header a {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-  transition: 0.7s ease;
-}
-html body header a:hover {
-  color: rgb(81, 75, 105);
 }
 html body header .__navbar {
   z-index: 1;
@@ -52,19 +52,19 @@ html body header .__navbar .__hamburger:hover .bar {
   background-color: rgb(81, 75, 105);
 }
 html body header .__navbar span {
-  font-size: 3em;
+  font-size: 2.8em;
   font-family: "Death-Rattlebb";
 }
 html body header .__mobile_nav {
   position: fixed;
   top: -44em;
-  background: linear-gradient(30deg, rgb(0, 0, 0) 0%, rgb(14, 2, 63) 50%, rgb(0, 0, 0) 100%);
+  background: rgb(7, 0, 34);
   width: 100%;
   transition: 1s;
-  padding-top: 120px;
+  padding-top: 100px;
 }
 html body header .__mobile_nav a {
-  font-size: 2em;
+  font-size: 1.8em;
 }
 html body header .__mobile_nav ul {
   list-style: none;
@@ -73,14 +73,14 @@ html body header .__mobile_nav ul {
   text-align: center;
   display: flex;
   flex-direction: column;
-  gap: 3em;
-  margin: 5em 0px;
+  gap: 2em;
+  margin: 4em 0px;
 }
 html body header .bar {
   display: block;
-  width: 40px;
-  height: 4px;
-  margin: 10px auto;
+  width: 32px;
+  height: 3px;
+  margin: 8px auto;
   transition: all 0.3s ease-in-out;
   background-color: white;
   border-radius: 20px;

@@ -28,8 +28,7 @@
             <ul>
                 <li><a href="/photography/index.php?tag=cars">Cars</a></li>
                 <li><a href="/photography/index.php?tag=animals">Animals</a></li>
-                <li>Nature</li>
-                <li>Portraits</li>
+                <li><a href="/photography/index.php?tag=animals">Nature</a></li>
             </ul>
             <div>
                 <?php require_once 'tags.php'; ?>
