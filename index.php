@@ -148,8 +148,13 @@
             <?php include 'assets/php/database.php'; ?>
             <?php
               $sql = "SELECT * FROM guest_book";
-              $result = mysqli_query($conn, $sql);
-              $signatures = mysqli_fetch_all($result, MYSQLI_ASSOC);
+              $conn = getMessageDB();
+              if ($conn != null) {
+                $result = mysqli_query($conn, $sql);
+                $signatures = mysqli_fetch_all($result, MYSQLI_ASSOC);
+              } else {
+                $signatures = array();
+              }
             ?>
             <?php foreach($signatures as $signature): ?>
               <div class="__guest_book_content_message">

@@ -12,9 +12,14 @@
                     include(dirname(__DIR__) . "/assets/php/database.php");
                 ?>
                 <?php
+                    $conn = getImageDB();
                     $sql = "SELECT * FROM main_gallery";
-                    $result = mysqli_query($connPhoto, $sql);
-                    $photos = mysqli_fetch_all($result, MYSQLI_ASSOC);
+                    if ($conn != null) {
+                        $result = mysqli_query($conn, $sql);
+                        $photos = mysqli_fetch_all($result, MYSQLI_ASSOC);
+                    } else {
+                        $photos = array();
+                    }
                 ?>
                 <?php foreach($photos as $photo): ?>
                 <div class="__gallery_image">
