@@ -6,6 +6,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -139,6 +140,12 @@ body footer a {
   justify-content: center;
   align-items: center;
 }
+.--photo-w-description-container div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: wrap;
+}
 .--photo-w-description-container img {
   margin: 8px !important;
 }
@@ -193,4 +200,14 @@ body footer a {
   min-width: 360px;
   margin-bottom: 0px !important;
   margin-top: 24px !important;
+}
+
+.--big-image {
+  width: 45% !important;
+}
+
+@media only screen and (max-width: 900px) {
+  .--big-image {
+    width: 100% !important;
+  }
 }/*# sourceMappingURL=style.css.map */

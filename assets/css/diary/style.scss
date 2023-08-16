@@ -5,6 +5,7 @@
 }
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 body {
     text-align: center;
@@ -137,6 +138,12 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: wrap;
+    }
     img {
         margin: 8px !important;
     }
@@ -189,5 +196,14 @@ body {
     min-width: 360px;
     margin-bottom: 0px !important;
     margin-top: 24px !important;
+}
+.--big-image {
+    width: 45% !important;
+}
+
+@media only screen and (max-width: 900px) {
+    .--big-image {
+        width: 100% !important;
+    }
 }
 
