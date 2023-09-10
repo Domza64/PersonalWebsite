@@ -2,6 +2,7 @@
   --background-color: black;
   --green: #24b729;
   --dark-green: #188d1c;
+  --really-dark-green: #0d2c10;
 }
 
 html {
@@ -38,10 +39,12 @@ body main {
   font-size: 1.1em;
   line-height: 1.3em;
   margin-bottom: 120px;
+  display: flex;
+  flex-direction: column;
 }
 body main .__title {
   padding: 0px 1em;
-  height: 70vh;
+  height: 80vh;
   margin-bottom: 100px;
   display: flex;
   justify-content: center;
@@ -67,7 +70,7 @@ body main .__articles {
   gap: 100px;
 }
 body main .__articles article {
-  border: 4px solid rgb(10, 34, 12);
+  border: 4px solid var(--really-dark-green);
   border-style: dashed;
   border-radius: 2%;
   padding: 60px 25px;
@@ -105,7 +108,7 @@ body main .__articles article img {
   margin-bottom: 2em;
   border-radius: 0px;
   padding: 4px;
-  border: #24b729;
+  border: var(--green);
   border-style: dashed;
   border-width: 2px;
 }
@@ -209,5 +212,41 @@ body footer a {
 @media only screen and (max-width: 900px) {
   .--big-image {
     width: 100% !important;
+  }
+}
+.article-list-container {
+  z-index: 1;
+}
+.article-list-container nav {
+  float: right;
+  text-align: right;
+  border: 3px var(--really-dark-green) dashed;
+  padding: 16px;
+  margin-right: 2rem;
+  width: -moz-max-content;
+  width: max-content;
+  height: 250px;
+  overflow-y: auto;
+}
+.article-list-container nav h2 {
+  margin: 0px;
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+.article-list-container nav ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+@media only screen and (max-width: 1650px) {
+  .__title {
+    height: 30vh !important;
+  }
+}
+@media only screen and (min-width: 1650px) {
+  .article-list-container {
+    position: fixed;
+    width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */
